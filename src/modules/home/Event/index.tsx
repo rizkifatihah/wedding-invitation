@@ -83,7 +83,7 @@ export default function Event() {
                             </Li>
                             <Li delay={0.4}>
                                 <BsClock className="text-xl md:text-2xl" />
-                                <p className="text-xs md:text-base font-roboto-slab">10:30 WIB - end</p>
+                                <p className="text-xs md:text-base font-roboto-slab">10:30 WIB - Selesai</p>
                             </Li>
                             <Li delay={0.6}>
                                 <PiMapPin className="text-2xl md:text-3xl -translate-x-1" />

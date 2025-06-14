@@ -48,11 +48,13 @@ const anim = (variants: Variants) => ({
 })
 
 const images = [
-    "/photos/galeri/1.jpg",
-    "/photos/galeri/2.jpg",
+    "/photos/galeri/1Galleri.jpg",
+    "/photos/galeri/2Galleri.jpg",
     "/photos/galeri/3.jpg",
-    "/photos/galeri/4.jpg",
-    "/photos/galeri/5.jpg"
+    "/photos/galeri/4Galleri.jpg",
+    "/photos/galeri/5Gallerii.jpg",
+    "/photos/galeri/6.jpg",
+    "/photos/galeri/7.jpg"
 ]
 
 export default function Gallery() {
@@ -92,12 +94,14 @@ export default function Gallery() {
                         <Photo imageSrc={images[0]} delay={0} onClick={selectImage(0)} />
                         <Photo imageSrc={images[2]} delay={0.2} onClick={selectImage(2)} />
                         <Photo imageSrc={images[4]} delay={0.2} onClick={selectImage(4)} />
+                        <Photo imageSrc={images[6]} delay={0.2} onClick={selectImage(6)} />
 
 
                     </Column>
                     <Column className="mt-20 xl:mt-[9.5625rem]">
                         <Photo imageSrc={images[1]} delay={0.2} onClick={selectImage(1)} />
                         <Photo imageSrc={images[3]} delay={0.4} onClick={selectImage(3)} />
+                        <Photo imageSrc={images[5]} delay={0.4} onClick={selectImage(5)} />
                     </Column>
                 </div>
                 <motion.div

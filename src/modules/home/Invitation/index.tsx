@@ -112,7 +112,7 @@ function Card() {
                         height={500}
                         quality={100}
                         priority
-                        className="size-full object-cover"
+                        className="size-full object-contain" // Perubahan di sini
                     />
                 </motion.div>
             </section >
@@ -120,7 +120,3 @@ function Card() {
 
     )
 }
-
-
-// const search = useSearchParams()
-// const inviteFor = (search.get("to"))P
